@@ -10099,8 +10099,18 @@ p.lead {
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
-.social-icons .social-icon:hover {
+.social-icons .social-icon:hover, .social-icons a:hover {
   background-color: #bd5d38;
+}
+.social-icons a {
+  background-color: #495057;
+  border-color: #495057;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.social-icons a button {
+  color: #ffffff !important;
 }
 
 .dev-icons {
