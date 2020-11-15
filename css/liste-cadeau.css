@@ -1,0 +1,12 @@
+.row {
+    margin: 30px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    max-height: 320px;
+    background-size: cover;
+}
